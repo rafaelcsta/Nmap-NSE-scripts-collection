@@ -1,3 +1,5 @@
+##### nmap -sS -sV -sC -Pn --top-ports=25 -D RND:10 -O --script vuln --script-args=http.useragent="Mozilla/5.0" -v HereIpHostTarget -oN 08052022.txt
+
 https://github.com/cldrn/nmap-nse-scripts
 
 https://github.com/scipag/httprecon-nse
